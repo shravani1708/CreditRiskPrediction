@@ -1,7 +1,7 @@
 **Credit Risk Analysis**<br/>
 This project is focused on performing credit risk analysis using various machine learning algorithms to predict loan default status based on the given dataset. The code provided below demonstrates the steps involved in the analysis:</br>
 
-**Dataset**
+**Dataset**<br/>
 The dataset used for this analysis is stored in the file "credit_risk_dataset.csv". The dataset contains the following columns:<br/>
 
 person_age: Age of the person<br/>
@@ -38,3 +38,6 @@ Logistic Regression: A logistic regression classifier is trained and evaluated u
 Support Vector Machine (SVM): A support vector machine classifier is trained and evaluated using the same metrics.<br/>
 
 Each model's performance is reported using the classification_report function, which gives a detailed summary of precision, recall, F1-score, and support for both classes (0 and 1).
+
+**Conclusion**<br/>
+The credit risk analysis has been performed using multiple machine learning models. The choice of the best model may depend on the specific requirements and the importance of precision, recall, or other metrics in the context of the application. Further fine-tuning and hyperparameter optimization could be performed to improve the model's performance.
